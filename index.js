@@ -1,7 +1,7 @@
 const prettier = require('prettier');
 const { writeFileSync, readFileSync } = require('fs');
 
-const PRETTIER_EXTENSIONS = ['.html', '.js', '.jsx', '.ts', '.tsx', '.less', '.css', '.scss', '.json'];
+const PRETTIER_EXTENSIONS = ['.html', '.js', '.jsx', '.ts', '.tsx', '.less', '.css', '.scss', '.json', '.md'];
 let sourceAssets = [];
 let encoding = "utf-8"; //TODO : retrieve this from each asset
 
